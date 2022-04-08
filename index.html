@@ -21,7 +21,8 @@
         h1 {
             font-size: 3em;
             margin: 45px;
-            color: white
+            color: white;
+            text-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.623);
         }
 
         hr {
@@ -109,7 +110,7 @@
             
             if (hora == 00) {
                 agoraSao.innerText = '0' + hora + ':00' + ' - meia noite'
-            } else if (hora < 10) {
+            } else if (hora == 1) {
                 agoraSao.innerText = '0' + hora + ':00' + ' hora'
             } else {
                 agoraSao.innerText = hora + ':00' + ' horas'
@@ -138,7 +139,7 @@
             
             if (hora == 00) {
                 agoraSao.innerText = '0' + hora + ':00' + ' - meia noite'
-            } else if (hora < 10) {
+            } else if (hora == 1) {
                 agoraSao.innerText = '0' + hora + ':00' + ' hora'
             } else {
                 agoraSao.innerText = hora + ':00' + ' horas'
@@ -167,7 +168,7 @@
             
             if (hora == 00) {
                 agoraSao.innerText = '0' + hora + ':00' + ' - meia noite'
-            } else if (hora < 10) {
+            } else if (hora == 1) {
                 agoraSao.innerText = '0' + hora + ':00' + ' hora'
             } else {
                 agoraSao.innerText = hora + ':00' + ' horas'
@@ -196,7 +197,7 @@
             
             if (hora == 00) {
                 agoraSao.innerText = '0' + hora + ':00' + ' - meia noite'
-            } else if (hora < 10) {
+            } else if (hora == 1) {
                 agoraSao.innerText = '0' + hora + ':00' + ' hora'
             } else {
                 agoraSao.innerText = hora + ':00' + ' horas'
@@ -220,7 +221,7 @@
 
         if (hora == 00) {
             agoraSao.innerText = '0' + hora + ':' + horaSeg + ' - meia noite'
-        } else if (hora < 10) {
+        } else if (hora == 1) {
             agoraSao.innerText = '0' + hora + ':' + horaSeg + ' hora'
         } else {
             agoraSao.innerText = hora + ':' + horaSeg + ' horas'
